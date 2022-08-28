@@ -135,7 +135,7 @@ class GlowCookies {
 
  
 
-  disableTracking() {
+  disableTracking() 
     // Google Analytics Tracking ('client_storage': 'none')
     if (this.tracking.AnalyticsCode) {
       let Analytics = document.createElement('script');
